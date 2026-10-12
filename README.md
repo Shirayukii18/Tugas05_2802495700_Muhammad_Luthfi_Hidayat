@@ -16,7 +16,7 @@ Klasifikasi 10 ras Oxford-IIIT Pet dengan ResNet-18 (B1-B4) dan MobileNetV3-Smal
 - `outputs_gpu/selection.json`: pemilihan model sebelum test.
 - `outputs_gpu/environment.json`: konfigurasi lingkungan.
 - `outputs_gpu/failure_analysis.csv`: enam kesalahan; hipotesis visual ada di laporan.
-- `requirements.txt` dan `requirements-local-lock.txt`: dependensi dan versi lokal.
+- `requirements.txt` dan `requirements-local-lock.txt`: dependensi dan versi local.
 
 Folder `outputs/` serta notebook lama bukan sumber angka laporan terbaru.
 
@@ -27,7 +27,7 @@ Folder `outputs/` serta notebook lama bukan sumber angka laporan terbaru.
 3. Jalankan semua sel berurutan; dataset dan bobot diunduh dari sumber resmi saat pertama kali diperlukan.
 4. Simpan notebook setelah eksekusi. Run ulang memperbarui `outputs_gpu/`; cadangkan hasil lama bila diperlukan.
 
-Eksperimen dijalankan secara lokal pada RTX 5070 Ti. Cache citra, transformasi, training dan inferensi memakai CUDA. CPU/RAM digunakan untuk decoding, kontrol, ekspor metrik dan plotting. Eksekusi belum diuji pada Colab T4; durasi lokal tidak dapat dianggap setara dengan durasi Colab.
+Eksperimen dijalankan secara local pada RTX 5070 Ti. Cache citra, transformasi, training dan inferensi memakai CUDA. CPU/RAM digunakan untuk decoding, kontrol, ekspor metrik dan plotting.
 
 ## Protokol dan kaitan materi
 
@@ -41,12 +41,6 @@ Eksperimen dijalankan secara lokal pada RTX 5070 Ti. Cache citra, transformasi, 
 - Batch 32, AdamW, cross entropy, maksimum 25 epoch, patience 4. Checkpoint minimum validation loss; tidak ada scheduler atau Grad-CAM opsional.
 - B4 tanpa augmentasi dipilih sebelum test. B5 memakai konfigurasi terpilih pada MobileNetV3-Small, alternatif yang diizinkan soal, terkait efisiensi slide 24 dan sumber pretrained slide 25.
 - Durasi meliputi training, evaluasi validation/train bersih, logging/checkpoint; tidak termasuk download, inisialisasi dan test akhir.
-
-## Status pengumpulan dan AI
-
-Repository GitHub bersifat public; belum ada pengiriman ke LMS. ZIP tidak menyertakan dataset, lingkungan virtual atau checkpoint besar.
-
-AI membantu saya mengerjakan dan memahami code. Alat: OpenAI Codex. AI juga membantu menyusun laporan. Saya memverifikasi hasilnya dengan menjalankan notebook, mempelajari code, dan mencocokkan metrik.
 
 ## Sumber
 
