@@ -1,0 +1,7 @@
+image_id,truth,prediction,confidence,ground_truth,predicted_breed,hipotesis_mahasiswa
+British_Shorthair_258,4,3,0.9709063172340392,British Shorthair,Bombay,
+chihuahua_176,7,9,0.9669694304466248,Chihuahua,Shiba Inu,
+boxer_182,6,8,0.7140210866928101,Boxer,Pug,
+chihuahua_112,7,5,0.7008711099624634,Chihuahua,Beagle,
+chihuahua_114,7,8,0.6755972504615784,Chihuahua,Pug,
+Abyssinian_101,0,1,0.6102163791656494,Abyssinian,Bengal,

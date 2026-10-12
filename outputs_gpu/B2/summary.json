@@ -1,0 +1,24 @@
+{
+  "code": "B2",
+  "strategy": "feature",
+  "architecture": "resnet18",
+  "augmentation": true,
+  "trainable_parameters": 5130,
+  "total_parameters": 11181642,
+  "learning_rates": {
+    "head": 0.001
+  },
+  "epochs_run": 25,
+  "best_epoch": 22,
+  "stop_reason": "max_epochs",
+  "training_seconds": 158.553003,
+  "val_loss": 0.08127630792200716,
+  "val_accuracy": 0.9797979797979798,
+  "val_macro_f1": 0.980145007645169,
+  "train_eval_accuracy": 0.9884559884559885,
+  "generalization_gap": 0.008658008658008698,
+  "peak_vram_allocated_gib": 0.8270344734191895,
+  "peak_vram_reserved_gib": 0.982421875,
+  "test_macro_f1": 0.9830825673750561,
+  "test_accuracy": 0.9832214765100671
+}

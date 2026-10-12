@@ -1,0 +1,25 @@
+{
+  "code": "B4_noaug",
+  "strategy": "finetune",
+  "architecture": "resnet18",
+  "augmentation": false,
+  "trainable_parameters": 8398858,
+  "total_parameters": 11181642,
+  "learning_rates": {
+    "last_block": 0.0001,
+    "head": 0.001
+  },
+  "epochs_run": 10,
+  "best_epoch": 6,
+  "stop_reason": "early_stopping",
+  "training_seconds": 26.35327580000012,
+  "val_loss": 0.0576876311993866,
+  "val_accuracy": 0.9831649831649831,
+  "val_macro_f1": 0.9834371554822576,
+  "train_eval_accuracy": 1.0,
+  "generalization_gap": 0.01683501683501687,
+  "peak_vram_allocated_gib": 1.0063281059265137,
+  "peak_vram_reserved_gib": 1.181640625,
+  "test_macro_f1": 0.9797538711391409,
+  "test_accuracy": 0.9798657718120806
+}

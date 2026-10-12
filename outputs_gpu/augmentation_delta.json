@@ -1,0 +1,5 @@
+{
+  "val_accuracy": 0.0,
+  "test_macro_f1": -5.5632806171823646e-06,
+  "generalization_gap": -0.015151515151515138
+}

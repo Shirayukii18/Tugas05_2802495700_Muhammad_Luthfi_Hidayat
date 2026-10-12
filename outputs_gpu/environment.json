@@ -1,0 +1,24 @@
+{
+  "torch": "2.7.1+cu128",
+  "torchvision": "0.22.1+cu128",
+  "numpy": "2.5.2",
+  "device": "cuda",
+  "hardware": "NVIDIA GeForce RTX 5070 Ti",
+  "config": {
+    "seed": 42,
+    "batch_size": 32,
+    "max_epochs": 25,
+    "patience": 4,
+    "weight_decay": 0.01,
+    "head_lr": 0.001,
+    "backbone_lr": 0.0001,
+    "input_size": 224,
+    "num_workers": 0,
+    "run_bonus": true
+  },
+  "platform": "local",
+  "precision": "float32",
+  "bn_policy": "pretrained running statistics frozen; scratch BN trains",
+  "data_pipeline": "uint8 CUDA cache, tensor CUDA augmentation",
+  "cpu_tasks": "file decode, Python control, metrics export, plotting"
+}

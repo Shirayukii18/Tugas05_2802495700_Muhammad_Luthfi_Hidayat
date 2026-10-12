@@ -1,0 +1,4 @@
+{
+  "source": "B4_noaug",
+  "criterion": "minimum validation loss"
+}

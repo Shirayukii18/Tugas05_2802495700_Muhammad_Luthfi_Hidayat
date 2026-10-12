@@ -1,0 +1,25 @@
+{
+  "code": "B5",
+  "strategy": "finetune",
+  "architecture": "mobilenet_v3_small",
+  "augmentation": false,
+  "trainable_parameters": 1245738,
+  "total_parameters": 1528106,
+  "learning_rates": {
+    "last_block": 0.0001,
+    "head": 0.001
+  },
+  "epochs_run": 7,
+  "best_epoch": 3,
+  "stop_reason": "early_stopping",
+  "training_seconds": 20.394212100000004,
+  "val_loss": 0.07685563301899617,
+  "val_accuracy": 0.9696969696969697,
+  "val_macro_f1": 0.9700226494694182,
+  "train_eval_accuracy": 0.9963924963924964,
+  "generalization_gap": 0.02669552669552666,
+  "peak_vram_allocated_gib": 0.748633861541748,
+  "peak_vram_reserved_gib": 0.875,
+  "test_macro_f1": 0.9497885258254696,
+  "test_accuracy": 0.9496644295302014
+}

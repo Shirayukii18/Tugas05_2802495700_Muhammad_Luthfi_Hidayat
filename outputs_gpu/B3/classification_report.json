@@ -1,0 +1,75 @@
+{
+  "Abyssinian": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30.0
+  },
+  "Bengal": {
+    "precision": 0.967741935483871,
+    "recall": 1.0,
+    "f1-score": 0.9836065573770492,
+    "support": 30.0
+  },
+  "Birman": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30.0
+  },
+  "Bombay": {
+    "precision": 0.9655172413793104,
+    "recall": 1.0,
+    "f1-score": 0.9824561403508771,
+    "support": 28.0
+  },
+  "British Shorthair": {
+    "precision": 1.0,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9655172413793104,
+    "support": 30.0
+  },
+  "Beagle": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30.0
+  },
+  "Boxer": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526315,
+    "support": 30.0
+  },
+  "Chihuahua": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 30.0
+  },
+  "Pug": {
+    "precision": 0.9375,
+    "recall": 1.0,
+    "f1-score": 0.967741935483871,
+    "support": 30.0
+  },
+  "Shiba Inu": {
+    "precision": 1.0,
+    "recall": 0.9666666666666667,
+    "f1-score": 0.9830508474576272,
+    "support": 30.0
+  },
+  "accuracy": 0.9798657718120806,
+  "macro avg": {
+    "precision": 0.9808259176863181,
+    "recall": 0.9799999999999999,
+    "f1-score": 0.9797483078585237,
+    "support": 298.0
+  },
+  "weighted avg": {
+    "precision": 0.9809286604803248,
+    "recall": 0.9798657718120806,
+    "f1-score": 0.9797301344860919,
+    "support": 298.0
+  }
+}

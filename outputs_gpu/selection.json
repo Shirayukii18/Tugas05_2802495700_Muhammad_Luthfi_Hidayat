@@ -1,0 +1,5 @@
+{
+  "best_code": "B4_noaug",
+  "criterion": "minimum validation loss",
+  "test_used_for_selection": false
+}

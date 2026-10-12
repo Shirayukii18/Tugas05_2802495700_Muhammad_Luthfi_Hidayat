@@ -1,0 +1,8 @@
+{
+  "image_count": 1981,
+  "cache_dtype": "uint8",
+  "cache_device": "cuda",
+  "cache_gib": 0.5000145435333252,
+  "allocated_gib": 0.5002703666687012,
+  "reserved_gib": 0.533203125
+}

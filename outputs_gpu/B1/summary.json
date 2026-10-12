@@ -1,0 +1,24 @@
+{
+  "code": "B1",
+  "strategy": "scratch",
+  "architecture": "resnet18",
+  "augmentation": true,
+  "trainable_parameters": 11181642,
+  "total_parameters": 11181642,
+  "learning_rates": {
+    "all": 0.001
+  },
+  "epochs_run": 16,
+  "best_epoch": 12,
+  "stop_reason": "early_stopping",
+  "training_seconds": 126.72544990000006,
+  "val_loss": 1.4174335631055863,
+  "val_accuracy": 0.5286195286195287,
+  "val_macro_f1": 0.5109743348898178,
+  "train_eval_accuracy": 0.5764790764790765,
+  "generalization_gap": 0.047859547859547824,
+  "peak_vram_allocated_gib": 1.4127912521362305,
+  "peak_vram_reserved_gib": 1.6171875,
+  "test_macro_f1": 0.4872228149864948,
+  "test_accuracy": 0.5033557046979866
+}
