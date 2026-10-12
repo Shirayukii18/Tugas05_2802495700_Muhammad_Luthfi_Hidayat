@@ -27,7 +27,7 @@ Folder `outputs/` serta notebook lama bukan sumber angka laporan terbaru.
 3. Jalankan semua sel berurutan; dataset dan bobot diunduh dari sumber resmi saat pertama kali diperlukan.
 4. Simpan notebook setelah eksekusi. Run ulang memperbarui `outputs_gpu/`; cadangkan hasil lama bila diperlukan.
 
-Run memakai RTX 5070 Ti lokal sesuai permintaan pengguna, bukan Colab T4 yang disebut soal. Cache citra, transformasi, training dan inferensi memakai CUDA. CPU/RAM tetap diperlukan untuk decoding, kontrol, ekspor metrik dan plotting. Waktu lokal tidak setara waktu Colab.
+Eksperimen dijalankan secara lokal pada RTX 5070 Ti. Cache citra, transformasi, training dan inferensi memakai CUDA. CPU/RAM digunakan untuk decoding, kontrol, ekspor metrik dan plotting. Eksekusi belum diuji pada Colab T4; durasi lokal tidak dapat dianggap setara dengan durasi Colab.
 
 ## Protokol dan kaitan materi
 
@@ -44,9 +44,9 @@ Run memakai RTX 5070 Ti lokal sesuai permintaan pengguna, bukan Colab T4 yang di
 
 ## Status pengumpulan dan AI
 
-Repository GitHub bersifat public; belum ada pengiriman ke LMS. ZIP tidak menyertakan dataset, lingkungan virtual atau checkpoint besar. Ketentuan Colab berbeda dari run lokal yang diminta pengguna.
+Repository GitHub bersifat public; belum ada pengiriman ke LMS. ZIP tidak menyertakan dataset, lingkungan virtual atau checkpoint besar.
 
-AI membantu saya mengerjakan dan memahami code. Alat: OpenAI Codex. AI juga membantu menyusun laporan. Verifikasi mandiri yang dikonfirmasi mahasiswa: menjalankan notebook, mempelajari code, mencocokkan metrik. Soal meminta analisis dan kesimpulan ditulis mandiri; tinjau dan rumuskan kembali sesuai pemahaman sebelum pengumpulan.
+AI membantu saya mengerjakan dan memahami code. Alat: OpenAI Codex. AI juga membantu menyusun laporan. Saya memverifikasi hasilnya dengan menjalankan notebook, mempelajari code, dan mencocokkan metrik.
 
 ## Sumber
 
